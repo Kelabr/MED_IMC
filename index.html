@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"><!--Link CSS Bootstrap-->
+    <title>Document</title>
+</head>
+<body>
+    <form class="w-25 position-absolute top-50 start-50 translate-middle" action="/resilt.html" id="form">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome">
+        </div>
+        <div class="mb-3">
+            <label for="idade" class="form-label">Idade</label>
+            <input type="number" class="form-control" id="idade">
+          </div>
+          <div class="mb-3">
+            <label for="escola" class="form-label">Escola</label>
+            <select class="form-select form-select-sm" aria-label="Small select example" id="escola">
+                <option selected>Escola</option>
+                <option value="Unidade Municipal de Ensino João Ramalho">Unidade Municipal de Ensino João Ramalho</option>
+                <option value="Jose de Anchieta Padre Unidade Municipal de Ensino">Jose de Anchieta Padre Unidade Municipal de Ensino</option>
+                <option value="UME Bernardo José Maria de Lorena">UME Bernardo José Maria de Lorena</option>
+              </select>
+          </div>
+          <div class="mb-3">
+            <label for="altura" class="form-label">Altura</label>
+            <input type="number" class="form-control" id="altura"  step="0.010">
+          </div>
+          <div class="mb-3">
+            <label for="peso" class="form-label">Peso</label>
+            <input type="number" class="form-control" id="peso"  step="0.010">
+          </div>
+        <button type="submit" class="btn btn-primary" id="envia">Submit</button>
+      </form>
+      <script src="/src/script.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script> <!--Link CSS Bootstrap-->
+</html>
